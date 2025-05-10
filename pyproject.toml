@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "repl-nix-auto-trade-crypto-bot"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "repl_nix_auto_trade_crypto_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ta = "^0.11.0"
+yfinance = "^0.2.40"
+ccxt = "^4.3.41"
+pandas = "^2.2.2"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
