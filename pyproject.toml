@@ -13,6 +13,7 @@ yfinance = "^0.2.40"
 ccxt = "^4.3.41"
 pandas = "^2.2.2"
 requests = "^2.32.3"
+python-telegram-bot = "13.7"
 
 
 [build-system]
